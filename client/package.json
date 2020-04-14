@@ -18,7 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "NODE_ENV=development react-scripts build && rm -rf ../build && mv build ../",
+    "build": "react-scripts build && rm -rf ../build && mv build ../",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
