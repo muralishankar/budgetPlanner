@@ -8,7 +8,7 @@ const init = async () => {
         host: '0.0.0.0',
         routes: {
             files: {
-                relativeTo: Path.join(__dirname, 'build/')
+                relativeTo: Path.join(__dirname, 'public/')
             }
         }
     });
